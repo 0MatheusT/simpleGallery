@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    color: black;
+    margin: .5rem;
+    padding: .5rem;
+}
+
+img{
+    text-align: center;
+    width: 500px;
+    width: 500px;
+    align-items: center;
+    border-radius: 10%;
+    border-color: black;
+    outline: none;
+    box-shadow: none;
+    position: relative;
+
+}
+div{
+    text-align: center;
+    align-items:center;
+    margin-top: 2em;
+}
+
+button{
+    margin: 0.25em;
+    padding: 0;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    align-items: center;
+    vertical-align: center;
+    outline: none;
+    box-shadow: none;
+    color: black;
+    
+}
+
+button:hover{
+    background-color:  rgb(46, 151, 36);
+}
+
+#pzinho{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+

@@ -1,0 +1,19 @@
+<h1>{{title}}</h1>
+
+<div *ngIf="images.length === 0">
+    <p id="pzinho">There are no pictures here!</p>
+</div>
+
+<div *ngIf="images.length > 0">
+    <img [src]= "images[imgPosition]"/>
+    <div id="divButton">
+        <p>Foto {{imgPosition+1}} de {{images.length}}</p>
+        <button (click)=firstPic() [disabled]="imgPosition==0"> First Pic </button>
+        <button (click)=beforePic() [disabled]="imgPosition==0"> Before Pic </button>
+        <button (click)=nextPic() [disabled]="images.length-1 === imgPosition"> Next Pic </button>
+        <button (click)=lastPic() [disabled]="images.length-1 === imgPosition"> Last Pic </button>
+    </div>
+</div>
+
+
+
